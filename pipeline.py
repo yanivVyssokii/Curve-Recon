@@ -92,7 +92,7 @@ def make_path_hamiltonian(path):
 def find_hamiltonian_cycle_ST(G: nx.Graph, start_vertex: int):
     """
     Finds a Hamiltonian cycle in G starting from start_vertex using
-    DFS with pruning, mimicking the C++ algorithm you provided.
+    DFS with pruning.
     
     Returns a tuple (path, total_length, found)
     """
