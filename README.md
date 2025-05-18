@@ -1,4 +1,22 @@
-#Running The Algorithm
-In order to run the model, you should edit the "mesh_file" and "sample_file" inside the main() function in "pipeline.py" file, to be the paths of mesh file and the file consisting of the indices of the sampled points.
-After you've edited pipeline.py, you should run in the terminal "python3 pipeline.py".
-The requirements for the environmebt are listed in "requirements.txt".
+## Running the Algorithm
+
+To run the model, follow these steps:
+
+1. **Edit Input Paths**  
+   Open the `pipeline.py` file and update the paths for the following variables inside the `main()` function:
+   - `mesh_file`: Path to your input mesh file.
+   - `sample_file`: Path to the file containing indices of the sampled points.
+
+2. **Run the Script**  
+   Once the paths are correctly set, run the script from your terminal:
+   ```bash
+   python3 pipeline.py
+
+## Requirements
+
+Before running the algorithm, make sure to install all necessary dependencies. These are listed in the `requirements.txt` file.
+
+To install them, run the following command in your terminal:
+
+```bash
+pip install -r requirements.txt
